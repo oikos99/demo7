@@ -1,0 +1,110 @@
+div.overview {
+	max-height: 100%;
+}
+
+div.projectlist {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 10em;
+}
+
+div.textwithlist {
+	margin: 0 0 0 11em;
+	padding: 0 0 0 2em;
+	border-left: solid thin Gray;
+	text-align: justify;
+}
+
+
+div.projectmenuheader {
+	font-weight: bold;
+	margin: 1 0 .5em 0;
+}
+
+div.projectmenuitem {
+	margin-left: 1em;
+	padding: .15em 0 .15em 0;
+	border-bottom: dotted thin LightGray; 
+}
+
+
+div.projectheader {
+	margin-left: 1em;
+	border-bottom: solid thin Gray;
+	margin-bottom: .5em;
+	margin-top: 1.5em;
+}
+
+div.quickprojectlinks {
+	font-size: small;
+	text-align: right;
+	float: right;
+}
+
+span.projectname {
+	font-size: medium;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+div.projectname {
+	margin-left: 1em;
+	margin-bottom: .5em;
+	margin-top: 1.5em;
+	font-size: medium;
+	font-weight: bold;
+	font-variant: small-caps;
+	border-bottom: solid thin Gray;
+}
+
+div.projectdescription {
+	margin-left: 3em;
+}
+
+a.projectmenuitem {
+	text-decoration: none; 
+	color: #000000;
+}
+
+a.projectmenuitem:hover {
+	text-decoration: underline; 
+	color: red;
+}
+
+div.projects {
+	width: 70%;
+	float: right;
+	padding-top: 1em;
+}
+
+p.researchtext {
+	margin-top: 1.3em;
+	margin-left: auto;
+	margin-bottom: 1.3em;
+	margin-right: auto;
+	width: 90%;
+	text-align: justify;
+}
+
+div.nsfaward {
+	padding: .5em;
+	width: 40%;
+	margin: 2em auto 3em auto;
+	border: solid thin Gray;
+	overflow: hidden;
+}
+
+p.nsfaward {
+	clear: both;
+	margin: 0;
+	text-align: center;
+}
+
+img.nsfaward {
+	display: block;
+	margin: auto;
+	max-height: 6em;
+	max-width: 6em;
+}
+

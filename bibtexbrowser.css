@@ -1,0 +1,182 @@
+div.biblio {
+	margin: auto;
+}
+
+.bibtitle { 
+	font-weight:bold; 
+}
+
+.bibauthor {}
+
+.bibbooktitle { 
+	font-style:italic; 
+}
+
+.bibpublisher {}
+
+.pubaward {
+	font-weight: bold;
+	color: black;
+}
+
+/* description of paper */
+td.bibitem {
+	margin-left:0px;
+	padding-left: 1em;
+	text-align: left;
+	border: none;
+	padding-bottom: .5em;
+	padding-top: .5em;
+}
+
+
+/* item number */
+td.bibref {
+	padding-top: .5em;
+	padding-left:7px;
+	padding-right: .5em;
+	vertical-align:text-top; 
+	text-align: center;
+	border: none;
+}
+
+/* year headers */
+td.sheader {
+  font-weight: bold;
+/*  background-color: #003366; */
+/*  background-color: #194775; */
+  background-color: #335C85;
+  color: #ffffff;
+  padding: 4px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+  border-bottom: #990000 2px solid;
+
+}
+
+tr.bibline:hover {
+	background-color: gainsboro;
+}
+
+table.result {
+  	/* border: 1px solid #000000; */
+	border: none;
+  	margin:0px;
+	float: none;
+}
+table.result a {
+  text-decoration: none;
+  color: #469AF8;
+}
+
+table.result a:hover {
+  color: #ff6633;
+}
+
+div.pubarea {
+}
+
+div.publinks {
+	/* padding: .5em; */
+	float: right;
+	font-size: small;
+	text-align: right;
+	padding-left: 1em;
+}
+
+div.publinks a {
+	color: #000066;
+}
+
+
+
+/* ***********************************************  */
+
+
+
+
+/* 1st level headers, equivalent H1  */
+.rheader {
+  color: #003366;
+  font-size: large;
+  font-weight: bold;
+}
+
+
+
+/* 3rd level headers, equivalent H3  */
+.theader {
+  background-color: #995124;
+  color: #FFFFFF;
+  padding: 1px 2px 1px 2px;
+}
+
+.btb-nav-title {   
+  background-color: #995124;
+  color: #FFFFFF;
+  padding: 1px 2px 1px 2px;
+}
+
+.menu {
+  font-size: x-small;
+  background-color: #EFDDB4;
+  padding: 0px;
+  border: 1px solid #000000;
+  margin: 0px;
+}
+.menu a {
+  text-decoration: none;
+  color: #003366;
+}
+.menu a:hover {
+  color: #ff6633;
+}
+
+dd {
+  display: inline; /* for <dt> if BIBTEXBROWSER_LAYOUT='definition' */
+}
+
+
+
+
+.input_box{
+  margin-bottom : 2px;
+}
+.mini_se {
+  border: none 0;
+  border-top: 1px dashed #717171;
+  height: 1px;
+}
+.a_name a {
+  color:#469AF8;
+  width:130px;
+}
+
+.rsslink {
+  text-decoration: none;
+  color:#F88017;
+/* could be fancy, see : http://www.feedicons.com/ for icons*/
+  /*background-image: url("rss.png"); text-indent: -9999px;*/
+}
+
+.purebibtex {
+  font-family: monospace;
+  font-size: small;
+  border: 1px solid #DDDDDD;
+  background: none repeat scroll 0 0 #F5F5F5;  
+  padding:10px;
+  
+  overflow:auto;
+  width:55em;
+  
+  clear:both;
+}
+.bibentry-by { font-style: italic; }
+.bibentry-abstract { margin:15px; }
+.bibentry-label { margin-top:15px; }
+.bibentry-reference { width: 55em; margin-bottom:15px; padding:10px; background: none repeat scroll 0 0 #F5F5F5; border: 1px solid #DDDDDD; }
+
+.btb-nav { text-align: right; }
+
+
+
